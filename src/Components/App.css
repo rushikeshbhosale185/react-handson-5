@@ -1,0 +1,37 @@
+*{
+  font-family: 'Courier New', Courier, monospace;
+}
+body {
+  background-image: linear-gradient( rgb(239, 235, 4), rgb(16, 158, 16), rgb(170, 68, 218), rgb(90, 210, 204), rgb(6, 104, 6));
+  padding-left: 23rem;
+}
+
+.card1 , .card2{
+  text-align: center;
+  border: 2px dashed rgb(0, 217, 255);
+  background-image: linear-gradient(to right, green,pink);
+  border-radius: 12px;
+}
+
+
+h1{
+  text-align: center;
+  color: rgb(30, 0, 255);
+  
+}
+
+.compo{
+  width: 20rem;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;   
+}
+
+.increment{
+  width: 150px;
+}
+.increment:hover{
+  width: 175px;
+  height: 50px;
+  border: 2px dashed rgb(8, 10, 4);
+}
